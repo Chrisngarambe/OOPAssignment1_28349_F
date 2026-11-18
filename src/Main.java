@@ -526,6 +526,18 @@ public class Main {
     }
 
     public static void viewAllRecords() {
+        for (Department department: departments){
+            System.out.println(department.getRegistrationSummary());
+        }
+        for (Student student: students){
+            System.out.println(student.getRegistrationSummary());
+        }
+        for (Teacher teacher: teachers){
+            System.out.println(teacher.getRegistrationSummary());
+        }
+        for (Administrator administrator: administrators){
+            System.out.println(administrator.getRegistrationSummary());
+        }
 
     }
 
