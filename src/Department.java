@@ -77,6 +77,7 @@ public class Department implements Identifiable,Registrable{
 
     @Override
     public String getDisplayName() {
+
         return getDepartmentName();
     }
 

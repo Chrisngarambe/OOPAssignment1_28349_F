@@ -67,16 +67,19 @@ public class Course implements Identifiable,Registrable {
 
     @Override
     public String getId() {
+
         return courseId;
     }
 
     @Override
     public String getDisplayName() {
+
         return courseTitle;
     }
 
     @Override
     public boolean isActive() {
+
         return true;
     }
 
