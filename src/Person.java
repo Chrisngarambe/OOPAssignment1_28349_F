@@ -95,6 +95,10 @@ public abstract class Person implements Identifiable, Registrable{
             throw new ValidationException(
                     "Invalid email");
         }
+        if (dateOfBirth == null||dateOfBirth.isAfter(LocalDate.now())){
+            throw new ValidationException(
+                    "Invalid date of birth");
+        }
     }
 
     @Override

@@ -215,7 +215,7 @@ public class Main {
             System.out.print("Phone Number: ");
             String phone = Main.sc.nextLine();
 
-            System.out.print("Date Of Birth: ");
+            System.out.print("Date Of Birth (YYYY-MM-DD): ");
             LocalDate dob = LocalDate.parse(Main.sc.nextLine());
 
             System.out.print("Member Number: ");
